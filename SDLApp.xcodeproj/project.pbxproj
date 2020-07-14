@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D927B124BD95FB00721C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927B024BD95FB00721C3E /* AppDelegate.m */; };
+		F5D927B324BD960300721C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D927B224BD960300721C3E /* Assets.xcassets */; };
+		F5D927B624BD960300721C3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D927B424BD960300721C3E /* MainMenu.xib */; };
+		F5D927B924BD960300721C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927B824BD960300721C3E /* main.m */; };
+		F5D927C424BD960400721C3E /* SDLAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927C324BD960400721C3E /* SDLAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D927C024BD960400721C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D927A424BD95FB00721C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D927AB24BD95FB00721C3E;
+			remoteInfo = SDLApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D927AC24BD95FB00721C3E /* SDLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D927AF24BD95FB00721C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5D927B024BD95FB00721C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5D927B224BD960300721C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D927B524BD960300721C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5D927B724BD960300721C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D927B824BD960300721C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D927BA24BD960300721C3E /* SDLApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDLApp.entitlements; sourceTree = "<group>"; };
+		F5D927BF24BD960400721C3E /* SDLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D927C324BD960400721C3E /* SDLAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLAppTests.m; sourceTree = "<group>"; };
+		F5D927C524BD960400721C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D927A924BD95FB00721C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D927BC24BD960400721C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D927A324BD95FB00721C3E = {
+			isa = PBXGroup;
+			children = (
+				F5D927AE24BD95FB00721C3E /* SDLApp */,
+				F5D927C224BD960400721C3E /* SDLAppTests */,
+				F5D927AD24BD95FB00721C3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D927AD24BD95FB00721C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D927AC24BD95FB00721C3E /* SDLApp.app */,
+				F5D927BF24BD960400721C3E /* SDLAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D927AE24BD95FB00721C3E /* SDLApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5D927AF24BD95FB00721C3E /* AppDelegate.h */,
+				F5D927B024BD95FB00721C3E /* AppDelegate.m */,
+				F5D927B224BD960300721C3E /* Assets.xcassets */,
+				F5D927B424BD960300721C3E /* MainMenu.xib */,
+				F5D927B724BD960300721C3E /* Info.plist */,
+				F5D927B824BD960300721C3E /* main.m */,
+				F5D927BA24BD960300721C3E /* SDLApp.entitlements */,
+			);
+			path = SDLApp;
+			sourceTree = "<group>";
+		};
+		F5D927C224BD960400721C3E /* SDLAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D927C324BD960400721C3E /* SDLAppTests.m */,
+				F5D927C524BD960400721C3E /* Info.plist */,
+			);
+			path = SDLAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D927AB24BD95FB00721C3E /* SDLApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D927C824BD960400721C3E /* Build configuration list for PBXNativeTarget "SDLApp" */;
+			buildPhases = (
+				F5D927A824BD95FB00721C3E /* Sources */,
+				F5D927A924BD95FB00721C3E /* Frameworks */,
+				F5D927AA24BD95FB00721C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLApp;
+			productName = SDLApp;
+			productReference = F5D927AC24BD95FB00721C3E /* SDLApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D927BE24BD960400721C3E /* SDLAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D927CB24BD960400721C3E /* Build configuration list for PBXNativeTarget "SDLAppTests" */;
+			buildPhases = (
+				F5D927BB24BD960400721C3E /* Sources */,
+				F5D927BC24BD960400721C3E /* Frameworks */,
+				F5D927BD24BD960400721C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D927C124BD960400721C3E /* PBXTargetDependency */,
+			);
+			name = SDLAppTests;
+			productName = SDLAppTests;
+			productReference = F5D927BF24BD960400721C3E /* SDLAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D927A424BD95FB00721C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Pieter Van Keymeulen";
+				TargetAttributes = {
+					F5D927AB24BD95FB00721C3E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F5D927BE24BD960400721C3E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F5D927AB24BD95FB00721C3E;
+					};
+				};
+			};
+			buildConfigurationList = F5D927A724BD95FB00721C3E /* Build configuration list for PBXProject "SDLApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D927A324BD95FB00721C3E;
+			productRefGroup = F5D927AD24BD95FB00721C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D927AB24BD95FB00721C3E /* SDLApp */,
+				F5D927BE24BD960400721C3E /* SDLAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D927AA24BD95FB00721C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D927B324BD960300721C3E /* Assets.xcassets in Resources */,
+				F5D927B624BD960300721C3E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D927BD24BD960400721C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D927A824BD95FB00721C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D927B924BD960300721C3E /* main.m in Sources */,
+				F5D927B124BD95FB00721C3E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D927BB24BD960400721C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D927C424BD960400721C3E /* SDLAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D927C124BD960400721C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D927AB24BD95FB00721C3E /* SDLApp */;
+			targetProxy = F5D927C024BD960400721C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D927B424BD960300721C3E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D927B524BD960300721C3E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D927C624BD960400721C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F5D927C724BD960400721C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5D927C924BD960400721C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDLApp/SDLApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SDLApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.seanachaidh.SDLApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D927CA24BD960400721C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDLApp/SDLApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SDLApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.seanachaidh.SDLApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5D927CC24BD960400721C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SDLAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = be.seanachaidh.SDLAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDLApp.app/Contents/MacOS/SDLApp";
+			};
+			name = Debug;
+		};
+		F5D927CD24BD960400721C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SDLAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = be.seanachaidh.SDLAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDLApp.app/Contents/MacOS/SDLApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D927A724BD95FB00721C3E /* Build configuration list for PBXProject "SDLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D927C624BD960400721C3E /* Debug */,
+				F5D927C724BD960400721C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D927C824BD960400721C3E /* Build configuration list for PBXNativeTarget "SDLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D927C924BD960400721C3E /* Debug */,
+				F5D927CA24BD960400721C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D927CB24BD960400721C3E /* Build configuration list for PBXNativeTarget "SDLAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D927CC24BD960400721C3E /* Debug */,
+				F5D927CD24BD960400721C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D927A424BD95FB00721C3E /* Project object */;
+}
