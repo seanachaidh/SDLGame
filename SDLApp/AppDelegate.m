@@ -7,18 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "GameController.h"
 
 @interface AppDelegate ()
+{
+    GameController* controller;
+}
 
-@property (weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    if(SDL_Init(SDL_INIT_VIDEO) != 0) {
+        NSLog(@"Er ging iets mis met de initialisatie");
+    } else {
+        NSLog(@"Init succesvol");
+    }
+    
+    controller = [GameController initWithWindow];
+    [controller runEventHandle];
 }
-
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

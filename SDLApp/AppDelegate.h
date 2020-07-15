@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <SDL2/SDL.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
 
 @end
 
