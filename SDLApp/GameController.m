@@ -75,7 +75,19 @@
         [self updateAtPoint:point];
         SDL_RenderPresent(_mainrenderer);
          */
-        [_server serverHandle];
+        //[_server serverHandle];
+        glClearColor(1.0, 0, 0, 1.0);
+        glClear(GL_COLOR_BUFFER_BIT);
+        
+        glColor3f(1.0, 1.0, 1.0);
+        glBegin(GL_QUADS);
+        glVertex3f(0.2, 0.2, -0.5);
+        glVertex3f(0.2, 0.4, -0.5);
+        glVertex3f(0.4, 0.4, -0.5);
+        glVertex3f(0.4, 0.2, -0.5);
+        glEnd();
+        glFlush();
+        SDL_GL_SwapWindow(_mainwin);
     }
 }
 
@@ -94,7 +106,7 @@
 + (id) initWithWindow {
     GameController* retval = [[GameController alloc] init];
     if(retval) {
-        retval.mainwin = SDL_CreateWindow("mainwindow", 0, 0, 800, 600, SDL_WINDOW_SHOWN);
+        retval.mainwin = SDL_CreateWindow("mainwindow", 0, 0, 800, 600, SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
         retval.screen = SDL_GetWindowSurface(retval.mainwin);
         retval.mainrenderer = SDL_GetRenderer(retval.mainwin);
         retval.testint = 5;
@@ -103,6 +115,9 @@
         }
     }
     //SDL_SetWindowFullscreen(retval.mainwin, SDL_WINDOW_FULLSCREEN);
+    retval.glCtx = SDL_GL_CreateContext(retval.mainwin);
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    
     [retval initResources];
     SDL_RenderClear(retval.mainrenderer);
     //[retval drawWindow];

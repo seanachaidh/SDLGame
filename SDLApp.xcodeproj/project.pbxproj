@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5123D2124C07C1A00985E6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5123D2024C07C1A00985E6D /* OpenGL.framework */; };
+		F5123D2524C08C5C00985E6D /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = F5123D2424C08C5C00985E6D /* util.m */; };
+		F5123D2624C08C5C00985E6D /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = F5123D2424C08C5C00985E6D /* util.m */; };
+		F53F60B924BE102200EE5E83 /* FilledRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F60B824BE102200EE5E83 /* FilledRect.m */; };
+		F53F60BA24BE102200EE5E83 /* FilledRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F60B824BE102200EE5E83 /* FilledRect.m */; };
+		F53F60BD24BED2A200EE5E83 /* SDLAppServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F60BC24BED2A200EE5E83 /* SDLAppServer.m */; };
+		F53F60BE24BED2A200EE5E83 /* SDLAppServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F60BC24BED2A200EE5E83 /* SDLAppServer.m */; };
 		F5D927B124BD95FB00721C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927B024BD95FB00721C3E /* AppDelegate.m */; };
 		F5D927B324BD960300721C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D927B224BD960300721C3E /* Assets.xcassets */; };
 		F5D927B624BD960300721C3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D927B424BD960300721C3E /* MainMenu.xib */; };
 		F5D927B924BD960300721C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927B824BD960300721C3E /* main.m */; };
 		F5D927C424BD960400721C3E /* SDLAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927C324BD960400721C3E /* SDLAppTests.m */; };
+		F5D927D524BD9B1500721C3E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D927D424BD9B1500721C3E /* GameController.m */; };
+		F5D927DB24BDA7DF00721C3E /* totoro.bmp in Resources */ = {isa = PBXBuildFile; fileRef = F5D927DA24BDA7DE00721C3E /* totoro.bmp */; };
+		F5D927DC24BDA7DF00721C3E /* totoro.bmp in Resources */ = {isa = PBXBuildFile; fileRef = F5D927DA24BDA7DE00721C3E /* totoro.bmp */; };
+		F5D927DD24BDAA1000721C3E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D927CF24BD984B00721C3E /* SDL2.framework */; };
+		F5D927DE24BDAA1000721C3E /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5D927CF24BD984B00721C3E /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +36,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F5D927DF24BDAA1000721C3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F5D927DE24BDAA1000721C3E /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F5123D2024C07C1A00985E6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F5123D2224C085B600985E6D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F5123D2424C08C5C00985E6D /* util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		F5123D2724C08C8000985E6D /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		F53F60B724BE102200EE5E83 /* FilledRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilledRect.h; sourceTree = "<group>"; };
+		F53F60B824BE102200EE5E83 /* FilledRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilledRect.m; sourceTree = "<group>"; };
+		F53F60BB24BED2A200EE5E83 /* SDLAppServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLAppServer.h; sourceTree = "<group>"; };
+		F53F60BC24BED2A200EE5E83 /* SDLAppServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLAppServer.m; sourceTree = "<group>"; };
 		F5D927AC24BD95FB00721C3E /* SDLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D927AF24BD95FB00721C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5D927B024BD95FB00721C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,6 +70,11 @@
 		F5D927BF24BD960400721C3E /* SDLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D927C324BD960400721C3E /* SDLAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLAppTests.m; sourceTree = "<group>"; };
 		F5D927C524BD960400721C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D927CF24BD984B00721C3E /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		F5D927D324BD9B1500721C3E /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		F5D927D424BD9B1500721C3E /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		F5D927DA24BDA7DE00721C3E /* totoro.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = totoro.bmp; sourceTree = "<group>"; };
+		F5FE2C6024BF1D74003FA8B4 /* ControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D927DD24BDAA1000721C3E /* SDL2.framework in Frameworks */,
+				F5123D2124C07C1A00985E6D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +100,11 @@
 		F5D927A324BD95FB00721C3E = {
 			isa = PBXGroup;
 			children = (
+				F5D927D924BDA6EE00721C3E /* Images */,
 				F5D927AE24BD95FB00721C3E /* SDLApp */,
 				F5D927C224BD960400721C3E /* SDLAppTests */,
 				F5D927AD24BD95FB00721C3E /* Products */,
+				F5D927CE24BD984B00721C3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,13 +120,22 @@
 		F5D927AE24BD95FB00721C3E /* SDLApp */ = {
 			isa = PBXGroup;
 			children = (
+				F5FE2C6024BF1D74003FA8B4 /* ControllerProtocol.h */,
 				F5D927AF24BD95FB00721C3E /* AppDelegate.h */,
+				F53F60BB24BED2A200EE5E83 /* SDLAppServer.h */,
+				F53F60BC24BED2A200EE5E83 /* SDLAppServer.m */,
 				F5D927B024BD95FB00721C3E /* AppDelegate.m */,
+				F5D927D324BD9B1500721C3E /* GameController.h */,
+				F5D927D424BD9B1500721C3E /* GameController.m */,
 				F5D927B224BD960300721C3E /* Assets.xcassets */,
 				F5D927B424BD960300721C3E /* MainMenu.xib */,
 				F5D927B724BD960300721C3E /* Info.plist */,
 				F5D927B824BD960300721C3E /* main.m */,
 				F5D927BA24BD960300721C3E /* SDLApp.entitlements */,
+				F53F60B724BE102200EE5E83 /* FilledRect.h */,
+				F53F60B824BE102200EE5E83 /* FilledRect.m */,
+				F5123D2424C08C5C00985E6D /* util.m */,
+				F5123D2724C08C8000985E6D /* util.h */,
 			);
 			path = SDLApp;
 			sourceTree = "<group>";
@@ -97,6 +149,24 @@
 			path = SDLAppTests;
 			sourceTree = "<group>";
 		};
+		F5D927CE24BD984B00721C3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5123D2224C085B600985E6D /* GLKit.framework */,
+				F5123D2024C07C1A00985E6D /* OpenGL.framework */,
+				F5D927CF24BD984B00721C3E /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D927D924BDA6EE00721C3E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5D927DA24BDA7DE00721C3E /* totoro.bmp */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,6 +177,7 @@
 				F5D927A824BD95FB00721C3E /* Sources */,
 				F5D927A924BD95FB00721C3E /* Frameworks */,
 				F5D927AA24BD95FB00721C3E /* Resources */,
+				F5D927DF24BDAA1000721C3E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D927B324BD960300721C3E /* Assets.xcassets in Resources */,
+				F5D927DB24BDA7DF00721C3E /* totoro.bmp in Resources */,
 				F5D927B624BD960300721C3E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D927DC24BDA7DF00721C3E /* totoro.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D927D524BD9B1500721C3E /* GameController.m in Sources */,
+				F5123D2524C08C5C00985E6D /* util.m in Sources */,
+				F53F60B924BE102200EE5E83 /* FilledRect.m in Sources */,
 				F5D927B924BD960300721C3E /* main.m in Sources */,
+				F53F60BD24BED2A200EE5E83 /* SDLAppServer.m in Sources */,
 				F5D927B124BD95FB00721C3E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D927C424BD960400721C3E /* SDLAppTests.m in Sources */,
+				F53F60BA24BE102200EE5E83 /* FilledRect.m in Sources */,
+				F53F60BE24BED2A200EE5E83 /* SDLAppServer.m in Sources */,
+				F5123D2624C08C5C00985E6D /* util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +427,10 @@
 				CODE_SIGN_ENTITLEMENTS = SDLApp/SDLApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SDLApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -364,6 +448,10 @@
 				CODE_SIGN_ENTITLEMENTS = SDLApp/SDLApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SDLApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

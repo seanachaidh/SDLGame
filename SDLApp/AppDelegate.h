@@ -10,6 +10,6 @@
 #import <SDL2/SDL.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+- (void) toggleFullscreen: (id) sender;
 @end
 

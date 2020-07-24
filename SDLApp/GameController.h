@@ -10,6 +10,10 @@
 #import <Foundation/Foundation.h>
 #import <SDL2/SDL.h>
 
+#import <OpenGL/OpenGL.h>
+#import <OpenGL/gl.h>
+
+
 #import "SDLAppServer.h"
 #import "ControllerProtocol.h"
 
@@ -25,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property SDL_Texture* maintexture;
 @property SDL_Renderer*  mainrenderer;
 @property SDLAppServer* server;
+@property SDL_GLContext glCtx;
 @property int testint;
 
 @property NSMutableArray* pointArray;

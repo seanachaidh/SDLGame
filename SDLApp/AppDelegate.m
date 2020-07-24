@@ -33,5 +33,8 @@
     // Insert code here to tear down your application
 }
 
+- (void) toggleFullscreen: (id) sender {
+    NSLog(@"Full screen toggle");
+}
 
 @end
